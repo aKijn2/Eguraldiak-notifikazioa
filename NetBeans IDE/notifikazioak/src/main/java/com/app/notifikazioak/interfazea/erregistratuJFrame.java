@@ -33,6 +33,8 @@ public class erregistratuJFrame extends javax.swing.JFrame {
         erabiltzaileajTextField1 = new javax.swing.JTextField();
         pasahitzajPasswordField1 = new javax.swing.JPasswordField();
         saioaHasijButton1 = new javax.swing.JButton();
+        emailajLabel1 = new javax.swing.JLabel();
+        emailajTextField1 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -53,6 +55,8 @@ public class erregistratuJFrame extends javax.swing.JFrame {
 
         saioaHasijButton1.setText("erregistratu");
 
+        emailajLabel1.setText("emaila");
+
         javax.swing.GroupLayout erregistratujPanel1Layout = new javax.swing.GroupLayout(erregistratujPanel1);
         erregistratujPanel1.setLayout(erregistratujPanel1Layout);
         erregistratujPanel1Layout.setHorizontalGroup(
@@ -64,17 +68,21 @@ public class erregistratuJFrame extends javax.swing.JFrame {
                         .addComponent(erabiltzaileajLabel1)
                         .addGap(167, 167, 167))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, erregistratujPanel1Layout.createSequentialGroup()
-                        .addGroup(erregistratujPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(erregistratujPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(erregistratujLabel1)
-                            .addComponent(pasahitzajPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(erabiltzaileajTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(pasahitzajPasswordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)
+                            .addComponent(erabiltzaileajTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)
+                            .addComponent(emailajTextField1))
                         .addGap(116, 116, 116))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, erregistratujPanel1Layout.createSequentialGroup()
                         .addComponent(pasahitzajLabel1)
                         .addGap(174, 174, 174))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, erregistratujPanel1Layout.createSequentialGroup()
                         .addComponent(saioaHasijButton1)
-                        .addGap(153, 153, 153))))
+                        .addGap(153, 153, 153))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, erregistratujPanel1Layout.createSequentialGroup()
+                        .addComponent(emailajLabel1)
+                        .addGap(180, 180, 180))))
         );
         erregistratujPanel1Layout.setVerticalGroup(
             erregistratujPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -89,7 +97,11 @@ public class erregistratuJFrame extends javax.swing.JFrame {
                 .addComponent(pasahitzajLabel1)
                 .addGap(18, 18, 18)
                 .addComponent(pasahitzajPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 83, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(emailajLabel1)
+                .addGap(18, 18, 18)
+                .addComponent(emailajTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
                 .addComponent(saioaHasijButton1)
                 .addContainerGap())
         );
@@ -148,6 +160,8 @@ public class erregistratuJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel emailajLabel1;
+    private javax.swing.JTextField emailajTextField1;
     private javax.swing.JLabel erabiltzaileajLabel1;
     private javax.swing.JTextField erabiltzaileajTextField1;
     private javax.swing.JLabel erregistratujLabel1;
