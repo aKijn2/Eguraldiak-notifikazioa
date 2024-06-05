@@ -26,17 +26,152 @@ public class hasieraJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        bilatuNotifikazioajTextField1 = new javax.swing.JTextField();
+        egoeraPanelajPanel1 = new javax.swing.JPanel();
+        gaurIrudiajPanel2 = new javax.swing.JPanel();
+        gaurjLabel1 = new javax.swing.JLabel();
+        gaurKopjLabel1 = new javax.swing.JLabel();
+        programatutaIrudiajPanel3 = new javax.swing.JPanel();
+        programatutajLabel2 = new javax.swing.JLabel();
+        programatutaKopjLabel1 = new javax.swing.JLabel();
+        guztiakIrudiajPanel4 = new javax.swing.JPanel();
+        guztiakjLabel3 = new javax.swing.JLabel();
+        guztiakKopjLabel1 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        alertajTable1 = new javax.swing.JTable();
+        sortuNotifikazioajButton1 = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 0, 0));
+
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+
+        bilatuNotifikazioajTextField1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+
+        egoeraPanelajPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        egoeraPanelajPanel1.setLayout(new java.awt.GridLayout(9, 0));
+
+        javax.swing.GroupLayout gaurIrudiajPanel2Layout = new javax.swing.GroupLayout(gaurIrudiajPanel2);
+        gaurIrudiajPanel2.setLayout(gaurIrudiajPanel2Layout);
+        gaurIrudiajPanel2Layout.setHorizontalGroup(
+            gaurIrudiajPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 452, Short.MAX_VALUE)
+        );
+        gaurIrudiajPanel2Layout.setVerticalGroup(
+            gaurIrudiajPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 29, Short.MAX_VALUE)
+        );
+
+        egoeraPanelajPanel1.add(gaurIrudiajPanel2);
+
+        gaurjLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        gaurjLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        gaurjLabel1.setText("Gaur");
+        egoeraPanelajPanel1.add(gaurjLabel1);
+
+        gaurKopjLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        gaurKopjLabel1.setText("kop");
+        egoeraPanelajPanel1.add(gaurKopjLabel1);
+
+        javax.swing.GroupLayout programatutaIrudiajPanel3Layout = new javax.swing.GroupLayout(programatutaIrudiajPanel3);
+        programatutaIrudiajPanel3.setLayout(programatutaIrudiajPanel3Layout);
+        programatutaIrudiajPanel3Layout.setHorizontalGroup(
+            programatutaIrudiajPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 452, Short.MAX_VALUE)
+        );
+        programatutaIrudiajPanel3Layout.setVerticalGroup(
+            programatutaIrudiajPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 29, Short.MAX_VALUE)
+        );
+
+        egoeraPanelajPanel1.add(programatutaIrudiajPanel3);
+
+        programatutajLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        programatutajLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        programatutajLabel2.setText("Programatuta");
+        egoeraPanelajPanel1.add(programatutajLabel2);
+
+        programatutaKopjLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        programatutaKopjLabel1.setText("kop");
+        egoeraPanelajPanel1.add(programatutaKopjLabel1);
+
+        javax.swing.GroupLayout guztiakIrudiajPanel4Layout = new javax.swing.GroupLayout(guztiakIrudiajPanel4);
+        guztiakIrudiajPanel4.setLayout(guztiakIrudiajPanel4Layout);
+        guztiakIrudiajPanel4Layout.setHorizontalGroup(
+            guztiakIrudiajPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 452, Short.MAX_VALUE)
+        );
+        guztiakIrudiajPanel4Layout.setVerticalGroup(
+            guztiakIrudiajPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 29, Short.MAX_VALUE)
+        );
+
+        egoeraPanelajPanel1.add(guztiakIrudiajPanel4);
+
+        guztiakjLabel3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        guztiakjLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        guztiakjLabel3.setText("Guztiak");
+        egoeraPanelajPanel1.add(guztiakjLabel3);
+
+        guztiakKopjLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        guztiakKopjLabel1.setText("kop");
+        egoeraPanelajPanel1.add(guztiakKopjLabel1);
+
+        alertajTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "id", "izena", "mota", "erabiltzaileak_id"
+            }
+        ));
+        jScrollPane1.setViewportView(alertajTable1);
+
+        sortuNotifikazioajButton1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        sortuNotifikazioajButton1.setText("SORTU ALERTA BAT");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(sortuNotifikazioajButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(egoeraPanelajPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(bilatuNotifikazioajTextField1)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING))
+                .addContainerGap())
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(bilatuNotifikazioajTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(egoeraPanelajPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(sortuNotifikazioajButton1)
+                .addContainerGap())
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -78,5 +213,20 @@ public class hasieraJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTable alertajTable1;
+    private javax.swing.JTextField bilatuNotifikazioajTextField1;
+    private javax.swing.JPanel egoeraPanelajPanel1;
+    private javax.swing.JPanel gaurIrudiajPanel2;
+    private javax.swing.JLabel gaurKopjLabel1;
+    private javax.swing.JLabel gaurjLabel1;
+    private javax.swing.JPanel guztiakIrudiajPanel4;
+    private javax.swing.JLabel guztiakKopjLabel1;
+    private javax.swing.JLabel guztiakjLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JPanel programatutaIrudiajPanel3;
+    private javax.swing.JLabel programatutaKopjLabel1;
+    private javax.swing.JLabel programatutajLabel2;
+    private javax.swing.JButton sortuNotifikazioajButton1;
     // End of variables declaration//GEN-END:variables
 }

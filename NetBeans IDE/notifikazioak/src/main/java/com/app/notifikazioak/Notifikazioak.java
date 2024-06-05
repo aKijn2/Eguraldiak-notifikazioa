@@ -4,8 +4,6 @@
 
 package com.app.notifikazioak;
 
-import com.app.notifikazioak.interfazea.logeatuJFrame;
-
 /**
  *
  * @author 1ag3.achralla
@@ -13,7 +11,5 @@ import com.app.notifikazioak.interfazea.logeatuJFrame;
 public class Notifikazioak {
 
     public static void main(String[] args) {
-        logeatuJFrame login = new logeatuJFrame();
-        login.setVisible(true);
     }
 }
