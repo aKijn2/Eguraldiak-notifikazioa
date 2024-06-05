@@ -4,13 +4,16 @@
 
 package com.app.notifikazioak;
 
+import com.app.notifikazioak.interfazea.erregistratuJFrame;
+
 /**
  *
  * @author 1ag3.achralla
  */
-public class Notifikazioak {
+public class main {
 
     public static void main(String[] args) {
-        
+        erregistratuJFrame erregistratu = new erregistratuJFrame();
+        erregistratu.setVisible(true);
     }
 }
