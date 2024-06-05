@@ -10,8 +10,8 @@ import java.util.logging.Logger;
 
 import javax.swing.JOptionPane;
 
-import com.app.notifikazioak.Erregistratu;
-import com.app.notifikazioak.Navigazioa;
+import kontrolatzaileak.Erregistratu;
+import kontrolatzaileak.Navigazioa;
 
 /**
  *

@@ -1,5 +1,6 @@
-package com.app.notifikazioak;
+package kontrolatzaileak;
 
+import com.app.notifikazioak.Konexioa;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
