@@ -36,7 +36,7 @@ public class erregistratuJFrame extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated
-    // Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         logeatujPanel1 = new javax.swing.JPanel();
@@ -53,7 +53,7 @@ public class erregistratuJFrame extends javax.swing.JFrame {
         logeatujPanel1.setBackground(new java.awt.Color(0, 0, 0));
         logeatujPanel1.setLayout(new java.awt.GridLayout(6, 0));
 
-        tituloajPanel1.setLayout(new java.awt.GridLayout());
+        tituloajPanel1.setLayout(new java.awt.GridLayout(1, 0));
 
         erregistratujLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         erregistratujLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -98,13 +98,13 @@ public class erregistratuJFrame extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(logeatujPanel1, javax.swing.GroupLayout.DEFAULT_SIZE,
-                                javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE));
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(logeatujPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 365, Short.MAX_VALUE)
+        );
         layout.setVerticalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(logeatujPanel1, javax.swing.GroupLayout.DEFAULT_SIZE,
-                                javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE));
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(logeatujPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
