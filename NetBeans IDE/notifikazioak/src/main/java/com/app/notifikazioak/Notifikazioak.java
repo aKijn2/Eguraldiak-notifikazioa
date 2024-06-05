@@ -11,5 +11,6 @@ package com.app.notifikazioak;
 public class Notifikazioak {
 
     public static void main(String[] args) {
+        
     }
 }
