@@ -1,4 +1,4 @@
-package kontrolatzaileak;
+package com.app.notifikazioak.kontrolatzaileak;
 
 import com.app.notifikazioak.Konexioa;
 import java.sql.Connection;

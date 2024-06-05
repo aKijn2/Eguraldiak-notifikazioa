@@ -1,4 +1,4 @@
-package kontrolatzaileak;
+package com.app.notifikazioak.kontrolatzaileak;
 
 import com.app.notifikazioak.interfazea.erregistratuJFrame;
 import com.app.notifikazioak.interfazea.hasieraJFrame;

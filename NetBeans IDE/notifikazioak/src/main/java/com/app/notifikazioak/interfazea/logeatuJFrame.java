@@ -4,8 +4,8 @@
  */
 package com.app.notifikazioak.interfazea;
 
-import kontrolatzaileak.Logeatu;
-import kontrolatzaileak.Navigazioa;
+import com.app.notifikazioak.kontrolatzaileak.Logeatu;
+import com.app.notifikazioak.kontrolatzaileak.Navigazioa;
 
 /**
  *
