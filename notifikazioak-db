@@ -38,6 +38,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `notifikazioak`.`alerta` (
   `id_alerta` INT NOT NULL AUTO_INCREMENT,
   `izena` VARCHAR(45) NOT NULL,
+  `kokapena` VARCHAR(45) NOT NULL,
   `mota` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_alerta`))
 ENGINE = InnoDB;
