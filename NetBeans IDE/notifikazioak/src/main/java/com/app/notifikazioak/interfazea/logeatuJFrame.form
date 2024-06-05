@@ -81,10 +81,13 @@
             <Property name="text" type="java.lang.String" value="emaila"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="gordejButton2">
+        <Component class="javax.swing.JButton" name="hasiSaioajButton2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="GORDE"/>
+            <Property name="text" type="java.lang.String" value="HASI SAIOA"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hasiSaioajButton2ActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="erregistratujButton1">
           <Properties>
