@@ -4,7 +4,7 @@ import com.app.notifikazioak.interfazea.erregistratuJFrame;
 import com.app.notifikazioak.interfazea.hasieraJFrame;
 import com.app.notifikazioak.interfazea.logeatuJFrame;
 
-public class Navigazioa {
+public class Nabegazioa {
 
     public void navigateToHasiera(logeatuJFrame logeatu) {
         hasieraJFrame hasiera = new hasieraJFrame();

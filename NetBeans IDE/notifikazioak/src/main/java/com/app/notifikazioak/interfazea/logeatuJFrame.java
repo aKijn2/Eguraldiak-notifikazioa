@@ -5,7 +5,7 @@
 package com.app.notifikazioak.interfazea;
 
 import com.app.notifikazioak.kontrolatzaileak.Logeatu;
-import com.app.notifikazioak.kontrolatzaileak.Navigazioa;
+import com.app.notifikazioak.kontrolatzaileak.Nabegazioa;
 
 /**
  *
@@ -17,12 +17,12 @@ public class logeatuJFrame extends javax.swing.JFrame {
      * Creates new form logeatuJFrame
      */
     private Logeatu loginHandler;
-    private Navigazioa navigationHandler;
+    private Nabegazioa navigationHandler;
 
     public logeatuJFrame() {
         initComponents();
         loginHandler = new Logeatu();
-        navigationHandler = new Navigazioa();
+        navigationHandler = new Nabegazioa();
 
     }
 

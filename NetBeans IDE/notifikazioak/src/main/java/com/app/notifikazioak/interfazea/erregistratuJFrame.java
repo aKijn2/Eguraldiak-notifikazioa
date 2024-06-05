@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 import com.app.notifikazioak.kontrolatzaileak.Erregistratu;
-import com.app.notifikazioak.kontrolatzaileak.Navigazioa;
+import com.app.notifikazioak.kontrolatzaileak.Nabegazioa;
 
 /**
  *
@@ -22,11 +22,11 @@ public class erregistratuJFrame extends javax.swing.JFrame {
     /**
      * Creates new form erregistratuJFrame
      */
-    private Navigazioa navigationHandler;
+    private Nabegazioa navigationHandler;
 
     public erregistratuJFrame() {
         initComponents();
-        navigationHandler = new Navigazioa();
+        navigationHandler = new Nabegazioa();
     }
 
     /**
