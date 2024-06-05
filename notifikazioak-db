@@ -48,6 +48,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `notifikazioak`.`erabiltzaileak_has_alerta` (
   `erabiltzaileak_id_erabiltzailea` INT NOT NULL,
   `alerta_id_alerta` INT NOT NULL,
+  `mezua` VARCHAR(45) NULL,
   PRIMARY KEY (`erabiltzaileak_id_erabiltzailea`, `alerta_id_alerta`),
   INDEX `fk_erabiltzaileak_has_alerta_alerta1_idx` (`alerta_id_alerta` ASC),
   INDEX `fk_erabiltzaileak_has_alerta_erabiltzaileak_idx` (`erabiltzaileak_id_erabiltzailea` ASC),

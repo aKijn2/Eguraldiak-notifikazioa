@@ -26,52 +26,79 @@ public class alertaSortuJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        sortuNotifikazioajButton1 = new javax.swing.JButton();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        tituloajLabel1 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        alertarenIzenajTextField1 = new javax.swing.JTextField();
+        kokapenaAukeratujLabel2 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        kokapenakjList1 = new javax.swing.JList<>();
+        alertaMotajLabel3 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        alertaMotakjList2 = new javax.swing.JList<>();
+        jSeparator2 = new javax.swing.JSeparator();
+        sortuAlertajButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
-        jPanel1.setLayout(new java.awt.GridLayout(12, 0));
+        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel3.setLayout(new java.awt.GridLayout(9, 0));
 
-        sortuNotifikazioajButton1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        sortuNotifikazioajButton1.setText("SORTU");
-        jPanel1.add(sortuNotifikazioajButton1);
+        tituloajLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        tituloajLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        tituloajLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        tituloajLabel1.setText("SORTU ALERTA BAT");
+        jPanel3.add(tituloajLabel1);
+        jPanel3.add(jSeparator1);
 
-        jLabel1.setText("jLabel1");
+        alertarenIzenajTextField1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        alertarenIzenajTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        alertarenIzenajTextField1.setText("IZENDATU ZURE ALERTA");
+        jPanel3.add(alertarenIzenajTextField1);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(204, 204, 204)
-                .addComponent(jLabel1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addContainerGap(40, Short.MAX_VALUE))
-        );
+        kokapenaAukeratujLabel2.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        kokapenaAukeratujLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        kokapenaAukeratujLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        kokapenaAukeratujLabel2.setText("KOKAPENA AUKERATU");
+        jPanel3.add(kokapenaAukeratujLabel2);
 
-        jPanel1.add(jPanel2);
+        kokapenakjList1.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Villabona", "Tolosa", "Donostia", "Gros", "Irun" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        jScrollPane1.setViewportView(kokapenakjList1);
+
+        jPanel3.add(jScrollPane1);
+
+        alertaMotajLabel3.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        alertaMotajLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        alertaMotajLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        alertaMotajLabel3.setText("ALERTA MOTA EZARRI");
+        jPanel3.add(alertaMotajLabel3);
+
+        alertaMotakjList2.setModel(new javax.swing.AbstractListModel<String>() {
+            String[] strings = { "Eguzkitsua", "Euritsua", "Elurra", "Aize fuertea" };
+            public int getSize() { return strings.length; }
+            public String getElementAt(int i) { return strings[i]; }
+        });
+        jScrollPane2.setViewportView(alertaMotakjList2);
+
+        jPanel3.add(jScrollPane2);
+        jPanel3.add(jSeparator2);
+
+        sortuAlertajButton1.setText("SORTU");
+        jPanel3.add(sortuAlertajButton1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 530, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 750, Short.MAX_VALUE)
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 750, Short.MAX_VALUE)
         );
 
         pack();
@@ -113,9 +140,17 @@ public class alertaSortuJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JButton sortuNotifikazioajButton1;
+    private javax.swing.JLabel alertaMotajLabel3;
+    private javax.swing.JList<String> alertaMotakjList2;
+    private javax.swing.JTextField alertarenIzenajTextField1;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JLabel kokapenaAukeratujLabel2;
+    private javax.swing.JList<String> kokapenakjList1;
+    private javax.swing.JButton sortuAlertajButton1;
+    private javax.swing.JLabel tituloajLabel1;
     // End of variables declaration//GEN-END:variables
 }
