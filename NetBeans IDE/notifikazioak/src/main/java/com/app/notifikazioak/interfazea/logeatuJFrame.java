@@ -4,8 +4,8 @@
  */
 package com.app.notifikazioak.interfazea;
 
-import com.app.notifikazioak.LoginHandler;
-import com.app.notifikazioak.NavigationHandler;
+import com.app.notifikazioak.Logeatu;
+import com.app.notifikazioak.Navigazioa;
 
 /**
  *
@@ -16,13 +16,14 @@ public class logeatuJFrame extends javax.swing.JFrame {
     /**
      * Creates new form logeatuJFrame
      */
-    private LoginHandler loginHandler;
-    private NavigationHandler navigationHandler;
+    private Logeatu loginHandler;
+    private Navigazioa navigationHandler;
 
     public logeatuJFrame() {
         initComponents();
-        loginHandler = new LoginHandler();
-        navigationHandler = new NavigationHandler();
+        loginHandler = new Logeatu();
+        navigationHandler = new Navigazioa();
+        
     }
 
     /**
@@ -32,7 +33,7 @@ public class logeatuJFrame extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated
-    // Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         logeatujPanel1 = new javax.swing.JPanel();
@@ -49,7 +50,7 @@ public class logeatuJFrame extends javax.swing.JFrame {
         logeatujPanel1.setBackground(new java.awt.Color(0, 0, 0));
         logeatujPanel1.setLayout(new java.awt.GridLayout(6, 0));
 
-        tituloajPanel1.setLayout(new java.awt.GridLayout());
+        tituloajPanel1.setLayout(new java.awt.GridLayout(1, 0));
 
         erregistratujLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         erregistratujLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -64,6 +65,11 @@ public class logeatuJFrame extends javax.swing.JFrame {
 
         pasahitzajTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         pasahitzajTextField2.setText("pasahitza");
+        pasahitzajTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pasahitzajTextField2ActionPerformed(evt);
+            }
+        });
         logeatujPanel1.add(pasahitzajTextField2);
 
         emailajTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -89,16 +95,20 @@ public class logeatuJFrame extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(logeatujPanel1, javax.swing.GroupLayout.DEFAULT_SIZE,
-                                javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE));
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(logeatujPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
         layout.setVerticalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(logeatujPanel1, javax.swing.GroupLayout.DEFAULT_SIZE,
-                                javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE));
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(logeatujPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void pasahitzajTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pasahitzajTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pasahitzajTextField2ActionPerformed
 
     private void hasiSaioajButton2ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_hasiSaioajButton2ActionPerformed
         String erabiltzailea = erabiltzaileajTextField1.getText();
@@ -115,6 +125,7 @@ public class logeatuJFrame extends javax.swing.JFrame {
     private void erregistratujButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         navigationHandler.navigateToErregistratu(this);
     }
+
     // GEN-LAST:event_hasiSaioajButton2ActionPerformed
 
     /**

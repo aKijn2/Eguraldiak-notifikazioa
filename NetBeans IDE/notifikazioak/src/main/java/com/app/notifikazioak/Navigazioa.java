@@ -4,7 +4,7 @@ import com.app.notifikazioak.interfazea.erregistratuJFrame;
 import com.app.notifikazioak.interfazea.hasieraJFrame;
 import com.app.notifikazioak.interfazea.logeatuJFrame;
 
-public class NavigationHandler {
+public class Navigazioa {
 
     public void navigateToHasiera(logeatuJFrame logeatu) {
         hasieraJFrame hasiera = new hasieraJFrame();
@@ -17,4 +17,11 @@ public class NavigationHandler {
         erregistratu.setVisible(true);
         logeatu.dispose();
     }
+
+    public void navigateToLogeatu(erregistratuJFrame erregistratu) {
+        logeatuJFrame logeatu = new logeatuJFrame();
+        logeatu.setVisible(true);
+        erregistratu.dispose();
+    }
+
 }

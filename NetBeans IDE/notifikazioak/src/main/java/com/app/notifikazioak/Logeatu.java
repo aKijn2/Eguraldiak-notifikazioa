@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class LoginHandler {
+public class Logeatu {
 
     public boolean authenticate(String erabiltzailea, String pasahitza, String emaila) {
         boolean isAuthenticated = false;
