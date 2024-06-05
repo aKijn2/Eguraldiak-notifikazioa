@@ -48,6 +48,7 @@ public class hasieraJFrame extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
         bilatuNotifikazioajTextField1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        bilatuNotifikazioajTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
 
         egoeraPanelajPanel1.setBackground(new java.awt.Color(255, 255, 255));
         egoeraPanelajPanel1.setLayout(new java.awt.GridLayout(9, 0));
